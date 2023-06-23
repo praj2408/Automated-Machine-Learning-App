@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
+from streamlit_extras.add_vertical_space import add_vertical_space
 
 #import profiling capability
 from ydata_profiling import ProfileReport
@@ -16,6 +17,7 @@ with st.sidebar:
     choice = st.radio("Navigation", ["Upload","Profiling","Modelling", "Download"])
     st.info("This application allows you to build an automated ML pipeline using Streamlit, Pandas Profiling and PyCaret. And its damnright magic!")
     
+    st.write("Made with ❤️ by Prajwal Krishna.")
     
 
 if os.path.exists("sourcedata.csv"):
