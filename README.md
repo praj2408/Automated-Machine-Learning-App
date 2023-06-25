@@ -41,7 +41,7 @@ streamlit run app.py
 Contributions to this project are welcome! To contribute, please follow the standard GitHub workflow for pull requests.
 
 ## Contact information
-If you have any questions or comments about this project, feel free to contact the project maintainer at [gmail](prajwalgbdr03@gmail.com.)
+If you have any questions or comments about this project, feel free to contact the project maintainer at [gmail](mailto:prajwalgbdr03@gmail.com)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
